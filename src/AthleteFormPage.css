@@ -1,0 +1,90 @@
+/* table {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+td, th {
+    text-align: left;
+    padding: 10px 70px;
+    border: 1px solid black;
+} */
+
+/* form {
+    margin-left: 30px;
+  } */
+
+form {
+  width: 350px;
+  height: auto;
+  margin: 50px auto 0;
+  padding: 50px;
+  background-color: #eee;
+  color: #333;
+  border: 2px solid #c2d6ff;
+  border-radius: 40px 0 40px 0;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+input[type="text"],
+select {
+  /* width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; */
+
+  background-repeat: no-repeat; 
+  background-position: 6px;
+  border: 1px solid #dadada;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 35px;
+  width: 310px;
+  height: 30px;
+  font-size: 14px;
+  box-shadow: 0 0 10px;
+  -webkit-box-shadow: 0 0 10px;
+  /* For I.E */
+  -moz-box-shadow: 0 0 10px;
+}
+
+#form-add-button {
+  background-color: #b3b3b3;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 25px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #949494;
+  margin-right: 80px;
+}
+
+#form-add-button:hover {
+  background-color:#008cba
+}
+
+
+#form-cancel-button {
+  background-color:#b3b3b3;
+  border-radius:5px;
+  border:none;
+  padding:10px 25px;
+  color:#FFF;
+  text-shadow:1px 1px 1px #949494;
+  margin-left:100px
+}
+
+
+#form-cancel-button:hover {
+  background-color:#FF9980
+}
+
+
+.buttons-container {
+  display: flex;
+}

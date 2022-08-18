@@ -1,0 +1,22 @@
+#add-button {
+  background-color: #6e6e6e; /* Blue */
+  border: none;
+  color: white;
+  padding: 8px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  /* margin-right: 7%; */
+  border-radius: 5px;
+  /* margin-bottom: 20px; */
+  }
+  
+  
+  #add-button:hover {
+    background-color: #008cba;
+  }
+
+
+  :link {
+    text-decoration: none;
+  }

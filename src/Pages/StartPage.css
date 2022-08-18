@@ -1,0 +1,84 @@
+#athletes tr:nth-child(even) {
+  background-color: #dbdbdb;
+}
+
+#athletes tr:hover {background-color: rgb(136, 136, 136);}
+
+.add-button {
+  margin-left: 80%;
+}
+
+table {
+  margin-left: 20px;
+  margin-top: 30px;
+  border: none;
+  border-collapse: collapse;
+}
+
+
+/* table headings modification */
+#athletes th {
+  padding: 5px 5px 5px 5px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: black;
+}
+
+#athletes td {
+    text-align: left;
+    padding: 5px 5px;
+    text-align: left;
+}
+
+/* to reduce the table width */
+#athletes {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #athletes tr:nth-child(even) {
+    background-color: #dbdbdb;
+}
+  
+#athletes tr:hover {background-color: rgb(136, 136, 136);}
+
+#athletes {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.add-button {
+    margin-left: 80%;
+}
+
+#athletes th{
+    background-color: #04AA6D;
+    padding-left: 10px;
+    padding-right: 10px;
+} */
